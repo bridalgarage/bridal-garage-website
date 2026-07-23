@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "@/components/Footer";
 const services = [
   {
@@ -58,7 +59,7 @@ export default function Home() {
         </div>
 
         <nav>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
           <a href="/services">Services</a>
           <a href="/gallery">Gallery</a>
           <a href="/shop">Shop</a>
@@ -86,7 +87,7 @@ export default function Home() {
 <p className="hero-text">
   We create unforgettable luxury weddings through exceptional planning,
   world-class design, and flawless execution—turning your vision into
-  an experience you'll cherish forever.
+  an experience you&apos;ll cherish forever.
 </p>
 
           <div className="hero-actions">
@@ -304,9 +305,9 @@ export default function Home() {
       <section className="quote">
 
         <p>
-  "From our first consultation to the final dance,
+  &quot;From our first consultation to the final dance,
   Bridal Garage handled every detail with elegance and care.
-  Our wedding day felt effortless, personal, and unforgettable."
+  Our wedding day felt effortless, personal, and unforgettable.&quot;
 </p>
 
 <span>
